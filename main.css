@@ -1,0 +1,57 @@
+*{
+    background-color: darkslategrey;
+}
+
+.start-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    font-family: Copperplate;
+    font-size: 85px;
+    font-palette: dark;
+    display: flex;
+    justify-content: center;
+}
+
+.cookie-container {
+    margin: 20px auto;
+}
+
+#goku {
+    width: 300px;
+    cursor: pointer;
+}
+
+.score-container {
+    margin: 20px auto;
+}
+
+p {
+    font-size: 24px;
+}
+
+#score {
+    font-weight: bold;
+}
